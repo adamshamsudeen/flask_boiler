@@ -1,0 +1,12 @@
+<html>
+<head> <title> {{title}}</title></head>
+<body>
+<a href='/'>Home</a>||<a href='/animals'>Animals</a>
+<h1> List of animals</h1>
+<ol>
+{% for item in animals %}
+<li>{{item}}</li>
+{% endfor%}
+</ol>
+</body>
+</html>
