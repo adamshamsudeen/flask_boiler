@@ -8,7 +8,6 @@ def hello_world():
 @app.route('/animals')
 def page():
 	animals = ['cat', 'cow', 'horse', 'dog']
-	title = {'user_name':'adam'}
 	return render_template('animals.html',animals=animals, title="Animals")
 
 
